@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal CSS</title>
+    <style>
+      h1 {
+        color: rgb(0, 102, 255);
+        text-align: center;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h2 {
+        color: rgb(0, 102, 255);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background-color: lightblue;
+      }
+
+      main {
+        min-height: 100vh;
+        display: grid;
+        margin: 0 auto;
+        width: min(100%, 1000px);
+      }
+
+      main section {
+        background-color: white;
+        width: 30%;
+        margin: auto;
+      }
+
+      p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .first {
+        font-size: 10px;
+        margin-left: 25%;
+        
+      }
+
+      .second {
+        font-size: 20px;
+        margin-left: 30%;
+        
+      }
+
+      .third {
+        font-size: 40px;
+        margin-left: 25%;
+        margin-top: 10%;
+        
+      }
+
+      .last {
+        margin-right: 20%;
+      }
+
+      main section .fourth {
+        font-size: 200px;
+        margin-left: 20%;
+        background-color: yellow;
+        margin: auto;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        text-align: center;
+      }
+
+      h3 {
+        color: rgb(0, 102, 255);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      main div {
+        background-color: rgb(216, 208, 208);
+        text-align: center;
+        width: 30%;
+        margin: auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Book Component By Function</h1>
+        <nav class="link">
+          <a href="page.html">Page</a>
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      <div>
+        <p class="first">
+          "The this keyword and prototypes are pivotal, because they are<br />
+          foundational to doing real programing with JavaScript." -NICK
+          BERADI,<br />
+          Senior Consultant, RDA Corporation
+        </p>
+        <p class="second">KYLE SIMPSON</p>
+      </div>
+        <section>
+        <p class="third">
+          SCOPE &<br />
+          CLOSURES
+        </p>
+      </section>
+      <section>
+        <p class="fourth">JS</p>
+      </section>
+      <h2>BY KYLE SIMPSON</h2>
+      <p class="last">
+        Parts of the Language that many JavaScript<br />
+        Programmers simply avoid
+      </p>
+    </main>
+    <footer className="footer">
+      <p>
+        <h3>&copy; 2021 Tania</h3>
+      </p>
+    </footer>
+  </body>
+</html>
